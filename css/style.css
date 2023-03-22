@@ -1,0 +1,76 @@
+h1,h3{
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  padding:2rem 0;
+}
+
+body, p, a {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+}
+
+#main {
+  max-width: 45rem;
+  margin: 3rem auto;
+  padding: 3rem;
+  background-image: url('../img/bg.jpg');
+  border: solid #BFBFBF 0.1rem;
+  border-radius: 0.2rem;
+
+} 
+
+#masthead {
+  text-align: center;
+}
+
+#masthead img {
+  max-width: 100px;
+}
+
+#main-content {
+  text-overflow: clip;
+}
+
+
+#main-content input[type=text]{
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  border: solid #BFBFBF 0.1rem;
+  border-radius: 0.2rem;
+}
+
+#main-content button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: #E35335;
+  color: white;
+}
+
+#main-content button:hover {
+  background-color:  white;
+  color: #E35335;
+}
+
+#footer {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#footer img {
+  padding-right: 1rem;
+  width: 2rem;
+  height: auto;
+
+}
